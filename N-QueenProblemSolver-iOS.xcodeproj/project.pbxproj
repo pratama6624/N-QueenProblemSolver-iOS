@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4184A9AC2CC9D58F00D11F74 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4184A9AB2CC9D58F00D11F74 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		4184A9AB2CC9D58F00D11F74 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41D231582CC7FD9200755531 /* N-QueenProblemSolver-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "N-QueenProblemSolver-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		41D2314F2CC7FD9200755531 = {
 			isa = PBXGroup;
 			children = (
+				4184A9AB2CC9D58F00D11F74 /* README.md */,
 				41D2315A2CC7FD9200755531 /* N-QueenProblemSolver-iOS */,
 				41D231592CC7FD9200755531 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4184A9AC2CC9D58F00D11F74 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
